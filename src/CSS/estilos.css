@@ -1,7 +1,7 @@
 body {
     font-family: "Times", serif;
     background-image: url(../imagens/fundo-site-3.png);
-    background-repeat: no-repeat;
+    
     background-size: cover;
     display: flex;
     justify-content: center;
@@ -183,19 +183,20 @@ body {
 }
 
 .cartao .informacoes .informacoes-game span {
-    font-size: 13px;
+    font-size: 10px;
 }
 
 .cartao .informacoes .descricao {
     border-bottom: 1px solid #000000;
     padding: 10px;
-    max-height: 95px;
+    max-height: 75px;
     overflow-y: scroll;
     font-size: 13px;
 }
 
 .fundo-1{
     background: url(../imagens/fundo-pag-1.jpg);
+    max-width: 220px;
 }
 
 .btn-voltar {
@@ -246,8 +247,6 @@ body::-webkit-scrollbar-track {
 ::-webkit-scrollbar-thumb:hover {
     background: #c08057;
 }
-
-
 
 .glow-on-hover {
     width: 95px;
