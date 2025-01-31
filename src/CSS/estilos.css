@@ -1,7 +1,6 @@
 body {
     font-family: "Times", serif;
     background-image: url(../imagens/fundo-site-3.png);
-    
     background-size: cover;
     display: flex;
     justify-content: center;
@@ -10,108 +9,17 @@ body {
     gap: 30px;
 }
 
+header {
+    margin-right: 600px;
+}
+
 .cabecalho {
-    display: flex;
-    justify-content: center;
+    text-align: right;
     color: #f1ecff;
 }
 
 .cabecalho .titulo {
     color: #f1ecff;
-}
-
-.txt-animado {
-    font-size: 45px;
-    font-weight: 300;
-    margin-left: 550px;
-    margin-right: auto;
-    width: 7em
-}
-
-.txt-animado span {
-    position: absolute;
-
-}
-
-.txt-animado span::before {
-    content: "";
-    color: #0b493c;
-    animation: palavras 20s infinite;
-
-}
-
-.txt-animado span::after {
-    content: "";
-    position: absolute;
-    height: 100%;
-    border-left: 2px solid #0b493c;
-    right: -17px;
-    opacity: 1;
-    animation: cursor .8s infinite, digita 20s steps(18) infinite;
-    width: calc(100% + 13px);
-    background-color: #000000;
-}
-
-@keyframes digita {
-
-    10%,
-    15%,
-    30%,
-    35%,
-    50%,
-    55%,
-    70%,
-    75%,
-    90%,
-    95% {
-        width: 0;
-    }
-
-    5%,
-    20%,
-    25%,
-    40%,
-    45%,
-    60%,
-    65%,
-    80%,
-    85% {
-        width: calc(100% + 13px);
-    }
-}
-
-@keyframes cursor {
-    0% {
-        border-left: 2px solid #000000;
-    }
-}
-
-@keyframes palavras {
-
-    0%,
-    20% {
-        content: "zerados";
-    }
-
-    21%,
-    40% {
-        content: "finalizados";
-    }
-
-    41%,
-    60% {
-        content: "terminados";
-    }
-
-    61%,
-    80% {
-        content: "conquistados";
-    }
-
-    81%,
-    100% {
-        content: "concluídos";
-    }
 }
 
 .cartao {
@@ -129,7 +37,7 @@ body {
 }
 
 .lista-personagens {
-    width: 300px;
+    width: 215px;
     height: 500px;
     border-radius: 10px;
     position: relative;
